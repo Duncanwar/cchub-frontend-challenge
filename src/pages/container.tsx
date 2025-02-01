@@ -105,16 +105,7 @@ const AuthContainer: FC<AuthContainerProps> = ({
                                     <p className='underline font-[600] text-[14px] leading-[18.23px]'>
                                         Forgot password?
                                     </p>
-                                    <GlobalButton
-                                        htmlType='submit'
-                                        form={formId}
-                                        icon={<GlobalImage src='/icons/login-e.svg' />}
-                                        iconPlacement='right'
-                                        className='h-[50px] lg:w-[170px] w-[100%] leading-[18.23px] text-[14px] font-[800] header-b-l h-tex-c'
-                                        loading={loading}
-                                    >
-                                        {buttonText}
-                                    </GlobalButton>
+
                                 </div>
                             </div>
                         )}
